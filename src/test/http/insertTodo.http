@@ -1,0 +1,8 @@
+POST http://localhost:9090/api/todo
+Content-Type: application/json
+
+{
+  "title" : "title_insert",
+  "description" : "description_insert",
+  "completed" : false
+}

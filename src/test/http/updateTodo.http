@@ -1,0 +1,9 @@
+PUT http://localhost:9090/api/todo
+Content-Type: application/json
+
+{
+  "id": "6",
+  "title" : "title_update",
+  "description" : "description_update",
+  "completed" : true
+}
